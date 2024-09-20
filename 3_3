@@ -9,11 +9,12 @@
 
 def print_params(a=1,b='Строка',c=True):#Создаем функцию  print_params
     print(a,b,c) #Выводим ее на экран
-#print_params() #Выводим начальные параметры.
-#print_params(a='Chii',b='Python',c='Student') #Выводим разные аргументы
-#print_params(b=25) #Проверяем работают ли вызовы
-#print_params(c=[1,2,3]) #Проверяем работают ли вызовы.
-
+print_params() #Выводим начальные параметры.
+print_params(a='Chii',b='Python',c='Student') #Выводим разные аргументы
+print_params(b=25) #Проверяем работают ли вызовы
+print('Функция print_params(b=25),работает')
+print_params(c=[1,2,3]) #Проверяем работают ли вызовы.
+print('Функция print_params(c=[1,2,3],работает')
                                                             #Задачи
 #2.Распаковка параметров:
 #Создайте список values_list с тремя элементами разных типов.
@@ -29,4 +30,5 @@ print_params(**values_dict)
 #Создайте список values_list_2 с двумя элементами разных типов
 #Проверьте, работает ли print_params(*values_list_2, 42)
 values_list_2=[54.32,'Строка'] #Создаем список values_list_2 = [54.32, 'Строка' ] с даннымим
-print_params(*values_list_2,42) #Проверяем работает ли этот список. ) 
+print_params(*values_list_2,42) #Проверяем работает ли этот список. )
+print('Функция print_params(*values_list_2, 42) работает')
